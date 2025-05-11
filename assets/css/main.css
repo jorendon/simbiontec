@@ -1506,3 +1506,10 @@ section .headline
     width: 100%;
     padding: 10px;
 }
+
+
+.imagen-altura-fija {
+    height: 650px; /* Altura fija deseada, por ejemplo, 250px */
+    width: 100%;   /* Ocupa el ancho del contenedor */
+    object-fit: cover; /* Mantiene la proporción y cubre, recortando si es necesario */
+}
