@@ -1492,3 +1492,7 @@ section .headline
 .imagen-circular {
     border-radius: 10px;
 }
+
+.video-wrapper-bs3 {
+    margin-top: 20px;
+}
