@@ -1513,3 +1513,61 @@ section .headline
     width: 100%;   /* Ocupa el ancho del contenedor */
     object-fit: cover; /* Mantiene la proporción y cubre, recortando si es necesario */
 }
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 20px;
+    border-radius: 0 0 4px 4px;
+    background-color: #f9f9f9; /* Un fondo ligero para el contenido */
+    margin-bottom: 30px; /* Espacio abajo */
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+.nav-tabs > li > a {
+    margin-right: 2px; /* Pequeña separación entre pestañas */
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    font-weight: bold; /* Resaltar la pestaña activa */
+}
+
+.panel-custom-list {
+    border-radius: 6px; /* Bordes un poco más redondeados para el panel */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Una sombra sutil */
+}
+.panel-custom-list .panel-heading {
+    background-color: #13bbbd; /* Un color azul agradable para el encabezado */
+    color: white;
+    border-radius: 6px 6px 0 0;
+    font-weight: bold;
+}
+.list-group-item {
+    font-size: 16px; /* Tamaño de fuente un poco más grande para los ítems */
+    border-left: 3px solid transparent; /* Para un efecto sutil al pasar el mouse o estar activo */
+    transition: all 0.3s ease;
+}
+.list-group-item .glyphicon {
+    margin-right: 12px; /* Espacio entre el icono y el texto */
+    color: #13bbbd; /* Color de los iconos para que coincida con el encabezado */
+}
+.list-group-item:hover,
+.list-group-item:focus {
+    background-color: #eaf2f8;
+    border-left: 3px solid #13bbbd;
+    color: #2c3e50;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #13bbbd;
+    border-color: #13bbbd;
+    color: white;
+    border-left: 3px solid #2e86c1;
+}
+.list-group-item.active .glyphicon {
+    color: white; /* Icono blanco en el ítem activo */
+}
