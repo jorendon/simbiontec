@@ -1496,3 +1496,13 @@ section .headline
 .video-wrapper-bs3 {
     margin-top: 20px;
 }
+
+
+.image-container  {
+    display: flex;
+    justify-content: center; /* Centra los ítems horizontalmente */
+
+    /* Solo para visualización y asegurar que el contenedor tenga espacio */
+    width: 100%;
+    padding: 10px;
+}
