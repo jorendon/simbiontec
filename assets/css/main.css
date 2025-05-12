@@ -1571,3 +1571,16 @@ section .headline
 .list-group-item.active .glyphicon {
     color: white; /* Icono blanco en el ítem activo */
 }
+
+.audio-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+audio {
+    width: 100%; /* Hace que el reproductor ocupe el ancho del contenedor */
+    max-width: 500px; /* Un ancho máximo para el reproductor */
+    margin-top: 10px;
+}
